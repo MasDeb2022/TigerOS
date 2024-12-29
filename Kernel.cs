@@ -10,6 +10,7 @@ namespace TigerOS
 
         protected override void BeforeRun()
         {
+            Console.Clear();
             Console.WriteLine("TigerOS v0.1-alpha");
             Console.WriteLine("Type the text to get it echoed back.\n");
         }
